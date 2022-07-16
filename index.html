@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihir Patel</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <section class="showcase">
+       <header>
+           <h1 class="logo">Mihir Patel</h1>
+           <div class="toggle "></div>
+       </header>
+
+         <video src="media/production ID_4328788.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Hello world!!</h2>
+            <a href="Media/Mihir Patel - UMICH 2022.docx.pdf"> Resume </a>
+        </div>
+
+        <ul class="social">
+            <li> <a href="https://www.instagram.com/mihir2.3.7.1/"> <img src="Media/icons8-instagram-50.png" alt="Instagram"> </a> </li>
+            <li> <a href="https://www.linkedin.com/in/mihir-patel-747154216/"> <img src="Media/icons8-linkedin-circled-50.png" alt="LinkedIn"> </a> </li>
+            <li> <a href="mailto:mihirkpatel8829@gmail.com?Subject=Lets talk!"> <img src="Media/icons8-gmail-50.png" alt="Gmail">  </a> </li>
+        </ul>
+    </section>
+
+    <div class="menu">
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About Me</a></li>
+                <li> <a href="#">Experience</a></li>
+                <li> <a href="#">Education</a></li>
+            </ul>
+
+     </div>
+
+<script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+        showcase.classList.toggle('active')
+        menuToggle.classList.toggle('active')
+    })
+
+</script>
+
+</body>
+
+</html>
